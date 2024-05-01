@@ -6,9 +6,7 @@
     >
       <div class="relative">
         <img src="./assets/vector.svg" alt="" class="absolute -z-10 right-0 -top-11" />
-        <h1 class="text-white text-3xl font-semibold tracking-wider text-center">
-          Our Collection test
-        </h1>
+        <h1 class="text-white text-3xl font-semibold tracking-wider text-center">Our Collection</h1>
         <p class="text-gray text-base mt-4 font-medium max-w-md text-center mb-3">
           Introducing our Coffee Collection, a selection of unique coffees from different roast
           types and origins, expertly roasted in small batches and shipped fresh weekly.
