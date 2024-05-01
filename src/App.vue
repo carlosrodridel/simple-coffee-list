@@ -16,7 +16,7 @@
       <div class="flex-row text-white text-sm justify-center items-center mb-7">
         <button
           type="button"
-          :class="{ 'mx-6 bg-gray px-3 py-2 rounded-xl': filter === 'all' }"
+          :class="[filter === 'all' ? 'bg-gray' : '', 'px-3', 'py-2', 'rounded-xl', 'mx-6']"
           @click="toggleFilter('all')"
         >
           All Products
@@ -24,7 +24,7 @@
         <button
           type="button"
           @click="toggleFilter('available')"
-          :class="{ 'mx-6 bg-gray px-3 py-2 rounded-xl': filter !== 'all' }"
+          :class="[filter === 'available' ? 'bg-gray' : '', 'px-3', 'py-2', 'rounded-xl', 'mx-6']"
         >
           Available Now
         </button>
